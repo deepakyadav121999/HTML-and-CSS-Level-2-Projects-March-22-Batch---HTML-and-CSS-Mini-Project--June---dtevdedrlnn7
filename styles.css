@@ -1,1 +1,103 @@
 
+html{
+                background-color: grey;
+            }
+            .container{
+          margin-left: auto;
+          margin-right: auto;
+                display: flex;
+                background-color: white;
+                height: 60px;
+                width: 412px;
+                justify-content: center;
+                gap: 15px;
+                text-align: center;
+                border-radius: 0px 0px 15px 15px;
+
+            }
+            .box{
+                margin-left: auto;
+                margin-right: auto;
+              height: 630px;
+              width: 412px;
+              background-color: blue;
+            }
+            .box1{
+           
+                  height: 45px;
+                width: 80px;
+                margin-top: 7px;
+            }
+            .box2{
+             
+                height: 45px;
+                width: 80px;
+                margin-top: 7px;
+            }
+            .box3{
+               
+              height: 45px;
+                width: 80px;
+                margin-top: 7px;
+            }
+            .box4{
+               
+              height: 45px;
+                width: 80px;
+                margin-top: 7px;
+            }
+            .by{
+                height: 22px;
+                width: 22px;
+            }
+            .ff{
+                height: 25px;
+             width: 25px;
+            }
+            .ff2{
+                height: 25px;
+             width: 25px;
+            }
+          
+            .abc{
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                background-color: skyblue;
+                height: 30px;
+                width: 412px;
+                gap: 10px;
+                border-radius: 15px 15px 0px 0px;
+
+            
+    
+            }
+            .ff3{
+                margin-top: 5px;
+             height: 25px;
+             width: 25px;
+             margin-left: 160px;
+
+            }
+            .vol{
+                margin-top: 5px;
+                height: 20px;
+             width: 45px;
+             background-color: white;
+             color: black;
+            }
+            .jio{
+                margin-left: 5px;
+                margin-top: 5px;
+                color: black;
+            }
+            html{
+                background-color: rgb(194, 165, 211);
+            }
+            .all{
+                border: 1px solid white;
+                width: 412px;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
