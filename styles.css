@@ -1,115 +1,225 @@
-html{
-    background-color: grey;
+.main-container{
+    margin-top: 30px;
+    display: grid;
+    background-color:rgb(205, 214, 218);
+    height:600px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 10px;
+place-content: center;
+
 }
 .container{
-margin-left: auto;
-margin-right: auto;
-    display: flex;
-    background-color: white;
-    height: 60px;
-    width: 412px;
-    justify-content: center;
-    gap: 15px;
-    text-align: center;
-    border-radius: 0px 0px 15px 15px;
-
-}
-.box{
-    margin-left: auto;
+    display: grid;
+    height: 450px;
+    width: 900px;
+   /* background-color: aliceblue; */
+ grid-template-areas:
+ "box1 box1 box2 box3"
+ "box4 box5 box5 box3";
+ place-items: center;
+ grid-gap: 10px;
+ margin-left: auto;
     margin-right: auto;
-  height: 630px;
-  width: 412px;
-  background-color: blue;
+
 }
 .box1{
-
-      height: 45px;
-    width: 80px;
-    margin-top: 7px;
+    border: 1px solid black;
+    padding: 10px;
+    grid-area: box1;
+background-color: blueviolet;
+width: 400px;
+height: 200px;
+border-radius: 10px;
 }
 .box2{
- 
-    height: 45px;
-    width: 80px;
-    margin-top: 7px;
+    border: 1px solid black;
+    padding: 10px;
+    grid-area: box2;
+  background-color: gray;  
+  width: 215px;
+height: 200px;
+border-radius: 10px;
 }
 .box3{
-   
-  height: 45px;
-    width: 80px;
-    margin-top: 7px;
+    border: 1px solid black;
+    padding: 10px;
+    grid-area: box3;
+  background-color: white;
+  height: 430px; 
+  width: 200px;
+  border-radius: 10px;
 }
 .box4{
-   
-  height: 45px;
-    width: 80px;
-    margin-top: 7px;
+    border: 1px solid black;
+    padding: 10px;
+    grid-area: box4;
+    background-color:white;
+    width: 215px;
+height: 200px;
+border-radius: 10px;
 }
-.by{
-    height: 22px;
-    width: 22px;
+.box5{
+    border: 1px solid black;
+    padding: 10px;
+    grid-area: box5;
+    background-color: black;
+    width: 400px;
+height: 200px;
+border-radius: 10px;
 }
-.ff{
-    height: 25px;
- width: 25px;
+.quote{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ff2{
-    height: 25px;
- width: 25px;
+.quote1{
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.abc{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    background-color: skyblue;
+.prf{
+    color: aliceblue;
+}
+.dan{
+    color: white;
+}
+.box1img{
     height: 30px;
-    width: 412px;
-    gap: 10px;
-    border-radius: 15px 15px 0px 0px;
-
-
+border-radius: 40px;
+border:1px solid blueviolet;
 
 }
-.ff3{
-    margin-top: 5px;
- height: 25px;
- width: 25px;
- margin-left: 160px;
+.box2img{
+    height: 30px;
+border-radius: 40px;
+border:1px solid blueviolet;
 
 }
-.vol{
-    margin-top: 5px;
-    height: 20px;
- width: 45px;
- background-color: white;
- color: black;
+.box3img{
+    height: 30px;
+border-radius: 40px;
+border:1px solid blueviolet;
+
 }
-.jio{
-    margin-left: 5px;
-    margin-top: 5px;
-    color: black;
+.box4img{
+    height: 30px;
+border-radius: 40px;
+border:1px solid blueviolet;
+
 }
-html{
-    background-color: rgb(194, 165, 211);
+.box5img{
+    height: 30px;
+border-radius: 40px;
+border:1px solid blueviolet;
+
 }
-.all{
-    border: 1px solid white;
-    width: 412px;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.dan{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left:40px;
 }
-.box1:hover{
-    color: blue;
-  
+.jon{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left: 40px;
 }
-.by:hover{
-   background-color: grey;
+.kra{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left: 40px;
 }
-.zx{
-text-decoration: none;
+.jan{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left: 40px;
 }
-.zx:hover{
-    background-color: grey;
+.pat{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left: 40px;
 }
+.prf{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -11px;
+    margin-left: 40px;
+}
+.prfj{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -11px;
+    margin-left: 40px;
+}
+.prfk{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -11px;
+    margin-left: 40px;
+}
+.prfjan{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -11px;
+    margin-left: 40px;
+}
+.prfpat{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -11px;
+    margin-left: 40px;
+    color: white;
+}
+.pat{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.parapat,.parak,.parajan{
+color:lightslategrey;
+/* font-size: 15px; */
+font-family: Arial, Helvetica, sans-serif;
+}
+.paraj,.danp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+@media(max-width:600px) {
+    .box1,.box3{
+        width: 80%;
+       height: 400px;
+    }
+    .box2,.box4{
+        width: 80%;
+        height: 250px;
+    }
+    .box5{
+        width: 80%;
+        height: 350px;
+    }
+    .container{
+       
+    
+        height:100%;
+       width: auto;
+    
+        grid-template-areas:
+     "box1"
+     "box2"
+     "box4"
+     "box5"
+     "box3";
+    }
+
+    .main-container{
+        background-color:white;
+      height: fit-content;
+        width: auto;
+     
+    }
+   
+    }
